@@ -1,0 +1,91 @@
+.contact-form {
+    max-width: 100%;
+    background-color: #e3e2e1;
+    padding: 10px 0 20px 0;
+}
+
+h3 {
+    padding: 15px 0 10px 0;
+}
+
+.half {
+    max-width: 90%;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+    outline: #b9e7ed auto 1px;
+}
+
+input {
+    height: 30px;
+}
+
+textarea {
+    height: 100px;
+    padding-top: 5px;
+}
+
+#input-submit {
+    max-width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #fa6b75;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    height: 40px;
+    font-size: 14px;;
+    font-family: 'PT Sans', Helvetica, sans-serif;
+}
+
+.management-container {
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #c4c2c2;
+    color: #fff;
+    margin: auto;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.management-box {
+    max-width: 80%;
+}
+
+.management-text {
+    width: 90%;
+    max-width: 350px;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+}
+
+.management-circle {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}

@@ -1,0 +1,80 @@
+/* Navigation bar */
+
+.navi {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 55px;
+    overflow: hidden;
+}
+
+.navi a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    padding: 0 10px 0 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    display: inline;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin: 0; 
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    list-style: none;
+    background: rgba(255, 255, 255, 0.7);
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #8b8b8c;
+    padding: 7px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown--animation {
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+@keyframes growDown {
+  0% {
+      transform: scaleY(0)
+  }
+  80% {
+      transform: scaleY(1.1)
+  }
+  100% {
+      transform: scaleY(1)
+  }
+}

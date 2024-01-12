@@ -1,0 +1,368 @@
+/* universal styles */
+
+* {
+    box-sizing: border-box;
+}
+
+/*  Main Styles  */
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0 25px 0;
+    font-family: 'PT Sans', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0px 0 10px 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'PT Sans', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0 10px 0;
+    font-family: 'PT Sans', Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #383836;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-family: 'PT Sans', Helvetica, sans-serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+    line-height: 2;
+}
+
+h6 {
+    text-align: center;
+    font-family: 'PT Sans', Helvetica, sans-serif;
+    font-size: 14px;
+    padding-bottom: 0px;
+    line-height: 2;
+    margin-top: 10px;
+}
+
+p {
+    line-height: 2;
+}
+
+blockquote {
+    text-align: center;
+    font-size: 16px;
+    color: #878686;
+}
+
+.cover_details {
+    display: block;
+    padding: 10px 20px 20px 20px;
+}
+
+.cover_details p {
+    margin-top: 25px;
+    max-width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    left: auto;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.3);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .text:hover {
+    color:#383836;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .selector {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+#btnone {
+    background-color: #faa773;
+    color: #faa773;
+}
+
+#btntwo {
+    background-color: #b9e7ed;
+    color: #b9e7ed;
+}
+
+#btnthree {
+    background-color: #d9a5b4;
+    color: #d9a5b4;
+}
+
+#btnfour {
+    background-color: #6dada7;
+    color: #6dada7;
+}
+
+#btnfive {
+    background-color: #fa6b75;
+    color: #fa6b75;
+}
+
+/*.active {
+    border: 1px solid #383836;
+}
+*/
+.dot.active::before {
+    content: '';
+    position: absolute;
+    margin: -3.5px -11px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 1px currentColor;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 2.0s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .2}
+    to {opacity: 1}
+  }
+
+.slideshow-container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #b9e7ed;
+}
+
+.portrait_container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#main_cover {
+    max-width: 40%;
+    height: auto;
+    padding: 30px 0 30px 0;
+    margin: auto;
+    display: block;
+}
+
+#main_portrait {
+    max-width: 40%;
+    height: auto;
+    margin: 30px auto;
+    display: block;
+}
+
+.cover_container {
+    padding: 0px;
+}
+
+.page--cover {
+    max-width: 40%;
+    height: auto;
+    padding: 0px;
+    margin: auto;
+    display: block;
+    box-shadow: 2px 2px 30px -3px rgba(0,0,0,0.6);
+}
+
+.about-text {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.selector,
+.about-container {
+    border-bottom: 1px solid #878686;
+}
+
+.selector {
+    padding-bottom: 40px;
+}
+
+.about-text p {
+    max-width: 90%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.text-nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.text-nav-link {
+    text-decoration: none;
+    padding: 0px 5px 0px 5px;
+    border-radius: 50%;
+}
+
+.text-widget-container {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+.text-widget-container p {
+    padding-bottom: 0px;
+}
+
+.page-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    color: #8b8b8c;
+    size: 10px;
+}
+
+.quest {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #8b8b8c;
+    size: 10px;
+}
+
+.page-number {
+    text-align: end;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.book-comment {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.quote {
+    font-size: 22px;
+}
+
+/*  Instagram import  */
+
+.insta {
+    max-width: 70%;
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+    min-height: 100px;
+    background-color: #383836;
+    color: white;
+    max-width: 100%;
+    padding: 20px 0 0 10px;
+}
+
+footer p {
+    font-family: 'PT Sans', Helvetica, sans-serif;
+    font-size: 14px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    line-height: 0.5;
+    text-align: right;
+    color: #bbb;
+}
+
+
+
+

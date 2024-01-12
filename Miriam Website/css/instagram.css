@@ -1,0 +1,27 @@
+/* Instagram section styles */
+
+#instagram--container {
+    display: flex;
+    padding: 75px 0px;
+    background-color: #faf1e3;
+ /*  border-bottom: 1px solid black;*/
+}
+
+#instagram--logo {
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+    background-color: #faf1e3;
+}
+
+.instagram--scroll {
+    display: flex;
+    overflow: scroll;
+    background-color: #faf1e3;
+}
+
+.instagram--img {
+    height: 120px;
+    width: 120px;
+    margin-left: 10px;
+}

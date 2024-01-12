@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Miriam Stein Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet"> 
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/navi.css" rel="stylesheet">
+    <link href="css/query.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <h1>MIRIAM YUNG MIN STEIN</h1>
+
+      <nav class="navi">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Kontakt</a>
+        <div class="dropdown">
+          <button class="dropbtn">B&uumlcher
+          <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content dropdown--animation">
+          <a href="bookpage.html">Die Gereizte Frau</a>
+          <a href="bookpage2.html">Das F&uumlrchten Verlernen</a>
+          <a href="bookpage3.html">Berlin Seoul Berlin</a>
+          </div>
+      </div>
+      </nav>
+    </header>
+
+      <main class="main">
+        <section class="grid-container">
+          <section class="banner">
+            <div class="cover_container">
+              <img src="images/BookcoverTwo.jpg" alt="book cover" class="page--cover">
+            </div>
+          </section>
+
+          <section class="traffic">
+              <div class="cover_details">
+                <h2>DAS FÜRCHTEN VERLERNEN</h2>
+              </div>
+              <div class="selector">
+                <span class="dot" id="btnone" onclick="currentSlide(1)"></span>
+                <span class="dot" id="btntwo" onclick="currentSlide(2)"></span>
+                <span class="dot" id="btnthree" onclick="currentSlide(3)"></span>
+                <span class="dot" id="btnfour" onclick="currentSlide(4)"></span>
+                <span class="dot" id="btnfive" onclick="currentSlide(5)"></span>
+            </div> 
+
+            <div class="text-widget-container">
+              <div class="mySlides fade">
+                <div class="page-details">
+                  <p><i>Der Spiegel 50 | 2016</i></p>
+                  <p class="page-number">1 / 2</p>
+                </div>
+                <p class="quest">geschrieben von Nils Minkmar</p>
+                <h2>Normal seltsam</h2>
+                <h4><strong>Buchkritik</strong> - In ihrem Memoir “Das Fürchten verlernen” erzählt Miriam Stein ihr junges Leben: eine Geschichte der Angst.</h4>
+                <p>
+                    Die Geschichte von Miriam Stein beginnt wie ein Sketch von Loriot und wandelt sich dann in die norddeutsche Variante eines Stephen-King-Plots. Sie spielt in den Achtzigerjahren in einer ganz normalen Familie unweit von Osnabrück: Der Vater arbeitet unter der Woche in Hamburg, muss das Haus abbezahlen, die Mutter is zu Hause. Der letzte Satz ist wörtlich zu verstehen: Sie kann das Haus nicht mehr verlassen. Die nach außen intake Familie het im Inneren mit starken Feinden zu kämpfen, denn die Mutter ist an einer heftigen Angststörung erkrankt. 
+                    In ganz alltäglichen Situationen und gerade, wenn es ruhig und gemütlich zugehen könnte, wird sie von Zuckungen geplagt. Über Jahre hinweg kann sie kaum das Sofa verlassen, eine angemessene Therapie ist noch nicht entwickelt oder für die Familie nicht verfügbar. Alle sind dieser schweren Erkrankung hilflos ausgeliefert.
+                </p>
+                <p>
+                  Ein Mädchen, das die Familie zur Pflege angenommen hatte, muss diese wieder verlassen. Die Mutter kann einfach nicht mehr. Die ältere Tochter, aus der später die Autorin wird, begrüßt die   Trennung trotz der Grausamkeit des Vorgangs, in der Hoffnung, mit dem Kind würden auch die Dämonen verschwinden, die die Mutter plagen.
+                   Die Schilderung der Trennung sowie das Leben mit der geplagten Mutter sind der Autorin meisterlich gelungen. Man vergisst sie nie mehr. Dieser Horror spielt sich in einem durch und durch biederen Rahmen ab. Die Mutter besteht auf. Bio-Joghurt, Brötchen, die nicht aus Teilungen gebacken wurden, und misstraut den Psychopharmaka, weil man davon müde und abhängig könnte. Das Familienleben gleicht, während solche protestantisch-ökologischen Bedenken formuliert werden, mehr und mehr einem Stück des Filmemachers Luis Bunuel: Das völlig Seltsame ist so normal, dass kaum jemand ein Wort darüber verliert.
+                </p>
+                <p>
+                    Es ist oft so bei psychischen Krankheiten: Alle tun einfach möglichst lange so, als wäre nichts. Das gilt sogar für potenziell l lebensbedrohliche Diagnosen wie Depression, aber auch für klar erkennbare Formen der Psychose, die schnell mal als Spleen oder kleine Erschöpfung abgetan werden - zumal die Patienten selbst kaum Einsicht haben,
+                    Erst recht innerhalb halbwegs funktionierender Familien. Wer soll sich da einmischen? Die Kinder wachsen auf minder Krankheit, passen sich an. Die Autorin, die als Baby aus Südkorea zu dieser Familie gekommen war, analysiert ihre einerseits radikal biedere, andererseits völlig verrückte Kindheit mit einer neudeutschen Gründlichkeit.
+                </p>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="page-details">
+                  <p><i>Der Spiegel 50 | 2016</i></p>
+                  <p class="page-number">2 / 2</p>
+                </div>
+                <p class="quest">geschrieben von Nils Minkmar</p>
+                <p>
+                  Die Angst der Mutter wird nicht bloß als bedauerlicher Einzelfall beschrieben, sondern als Symptom einer Zeit: Waldsterben, Umweltgifte, Atomtod waren die Vorläufer von Terror, Digitalisierung und Trump. Es ist Miriam Stein gelungen, eine Geschichte der Bundesrepublik seit den Achtzigerjahren anhand ihrer eigenen Biografie zu schreiben, deren Leitmotiv die Angst ist. Die wiederum verweist auf die frühere, auf die mörderisch dunkle deutsche Geschickte, die noch in die Nachkriegsjahre ausstrahlte. Die Eltern hatten grausige Kindheitserlebnisse zu verarbeiten und taten so, als wäre nichts gewesen. 
+                  Sie suchten ihr Heil in einer spießigen Gegenwart, als würde jede Veränderung und jeder Wagemut den Dämonen die Möglichkeit zur Rückkehr geben. Die Angst, getarnt als Vorsicht, als Warnung, als Unbehagen an allem Neuen, findet immer wieder neue Gründe, sich wichtig zu machen. Stein stellt sich diesen Ängsten, und das Buch gibt auch hier Bericht über ihre Abstürze, ihre finanziellen Pleiten, ihre Essstörung, ihre Schwierigkeit, erwachsen zu werden.
+                </p>
+                <p>
+                    Nun entwickelt das Buch eine interessante Dialektik: In dem Versuch, sich von der Angststörung der Mutter zu emanzipieren, trifft Stein auch in ihrer neuen Umgebung in Berlin-Mitte auf ein Panoptikum der Ängste. Sie meidet aber die Angst nicht, sondern zeigt sich fasziniert von ihren vielfältigen individuellen wie kollektiven Formen.Sie Lässt einen Gentest anfertigen, um die Risiken ihrer DNA zu kennen, und erörtert die Wahrscheinlichkeit, schwere Krankheiten zu bekommen. 
+                    Sie errötet die Risiken der Digitalisierung für ihr Arbeitsumfeld als Autorin, sie fürchtet den Verlust ihrer bezahlbaren Wohnung und beschäftigt sich intensiv damit, was passieren würden, wenn sie vor ihrem Sohn stürbe.
+                </p>
+                <p>
+                    Schritt für Schritt gewinnt sie eine immer größere Distanz, um die diversen Phänomene der   Angst und die unterschiedlichen Wege, die zu ihr führen, in den Blick zu bekommen. Das ist die Moral dieses deutschen Memoir: Der Weg aus der Angst führt mitten hinein.
+                </p>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="page-details">
+                  <p><i>Edition F</i></p>
+                  <p class="page-number">1 / 3</p>
+                </div>
+                <p class="quest">Von Victoria Kempter</p>
+                <h2>Miriam Stein: „Du musst einmal durchdrehen, bevor du richtig erwachsen wirst!”
+                </h2>
+                <h4>Miriam Stein war noch ein Kind als ihre Mutter an einer Angsstörung erkrankte, die ihr Leben komplett verändern sollte. Wie der Wettlauf mit der Furcht ihr Leben begleitet hat und wie viel Mut in Angst steckt, beschreibt die Journalistin in ihrem neuen Buch „Das Fürchten Verlernen”. Wir haben sie zum Interview getroffen.</h4>
+                <p class="question">
+                  Von einer die auszog, das Fürchten zu verlernen
+                </p>
+                <p>
+                  In ihrem zweiten Memoir „Das Fürchten verlernen” beschreibt die Wahl-Berlinerin Miriam Stein wie es ist, mit der Angst aufzuwachsen, vor ihr wegzulaufen und schließlich mit ihr zu leben. Als sie ein junges Mädchen war, wurde ihre Mutter krank - eine Angststörung. 
+                  So findet in der Familie ein ungeplanter Rollentausch statt: ihre Schwester wäscht, ihr Bruder geht einkaufen, Miriam kocht. Gekonnt beschreibt die Frau, die als Kleinkind aus Korea adoptiert wurde, wie sie darüber mutig wurde - beziehungsweise, wie sie die Angst in ihrem Leben nie akzeptierte, sie ignorierte, bis sie sie einholte. 
+                  Wie sie der Angst ins Auge blickt, sie versucht zu bekämpfen und schließlich lernt, sie als notwendigen Teil des Lebens zu akzeptieren. 
+                </p>
+                <p>
+                  Diese Reise schickte sie in die Welt hinaus. Zunächst als Fliehende, später als Antwort-Suchende. Den Prozess der ersten Suche verschriftlichte sie bereits in ihrem 2008 erschienenen Buch „Berlin - Seoul - Berlin” in dem sie sich mit ihrer Herkunft und der Suche nach ihrer leiblichen Mutter auseinandersetzt. 
+                  Die Suche nach einer Antwort, auf die Angst, führte sie nun über Selbstversuche, Gentests und Hirnscans zu Betroffenen, Ärzten, Pharmakologen, Chemikern und Apothekern. 
+                </p>
+                <p>
+                  Wir haben sie getroffen und mit ihr über die Bedeutung von Mut und Angst im Leben, Frauenbilder und die Notwendigkeit, ein mal im Leben so richtig durchzudrehen gesprochen.
+                </p>
+                <p class="question">
+                  Was war der Auslöser dafür, dass du das Buch geschrieben hast? Gab es einen Schlüsselmoment?
+                </p>
+                <p>
+                  Angst war lange gesellschaftlich und in meiner Umgebung gar kein Thema, es ging immer nur um Mut und Helden, "Wir schaffen das" und noch mehr Mut. Und ganz plötzlich hatten alle Angst. Mir fehlte dieser Übergang dazwischen, in dem man sich mal mit Sachen beschäftigt und sich dann eben zu Recht oder zu Unrecht fürchtet. 
+                  Und dann fiel mir plötzlich das mit meiner Mutter ein. Das war ja wirklich eine Form von Angst, die sie irgendwann so blockiert hat, dass sie uns alle in der Familie blockierte. Ich dachte mir, dass das im Augenblick eine ganz erzählenswerte Geschichte wäre. 
+                </p>
+                <p>
+                  Die Lektoren und ich wollten das am Anfang eigentlich ganz anders machen, wir wollten sieben Essays zum Thema Angst schreiben. Viel thematischer und viel wissenschaftlicher. Als ich dann mit dem Schreiben angefangen habe, meinten sie irgendwann: "Du, ne, schreib mal eine straighte Geschichte, das ist viel interessanter!" Am Anfang war ich so ein bisschen skeptisch, ich wollte das eigentlich nicht nochmal. Aber sie haben mich überredet und ich sehe es aus dramaturgischer Perspektive auch total ein.
+                </p>
+                <p class="question">
+                  Warum die Idee genau sieben Essays zu schreiben?
+                </p>
+                <p>
+                  Ich wollte eine Zahl, die man bewältigen kann. Sie kommt aus der Konzeptionsphase, ich mag die Zahl Sieben. In vielen Kulturen ist sie eine "Zahl mit Omen" und ich glaube eigentlich an nichts von alledem. 
+                  Aber ich mag, wie sie aussieht. Rückblickend betrachtet sind das auch keine Mutproben, wie zum Beispiel vom Fünf-Meter-Brett zu springen. Sondern das sind eher so Retrospektiven, bei denen ich dachte, Ja, genau hier hat mein Leben irgendwie eine andere Wendung genommen." Das ging dann auf mit der Sieben.
+                </p>
+                <p class="question">
+                  In deinem Buch verbindest du das Wort Mut häufig mit Leben. Auch, wenn man sich die Titel der Kapitel - die Mutproben anschaut, findet man das wieder. Du erklärst, wie du erst davor weggerannt bist, Angst zu haben und dann irgendwann merkst, dass das nicht geht. 
+                  Würdest du heute, wo du akzeptiert hast, dass du Angst hast, sagen, dass du mutig bist? 
+                </p>
+                <p>
+                  Ich habe als Gegenreaktion auf die Krankheit meiner Mutter 15 Jahre lang gedacht, dass ich vor gar nichts Angst habe und habe mich damit im Grunde selbst betrogen. Denn ich habe vor sehr vielen Sachen Angst gehabt und ich fühle mich tatsächlich mutiger, seit ich mir das auch eingestehe. 
+                  Das beißt mich jetzt nicht mehr in den Nacken. Ich weiß jetzt, mit wem ich es zu tun habe und wenn ich vor bestimmten Sachen Angst habe, dann hab ich eben Angst!
+                </p>
+                <p>
+                  Ich habe mir immer gedacht, dass das Angst-Buch das ultimative Mut-Buch sein muss. Wie mit dem Fünf-Meter-Brett: Heute ist es ja so, dass man versucht, Kindern möglichst wenig Angst zu machen. So vergisst man, seinen Kindern zu sagen, dass sie auf jeden Fall Angst bekommen, wenn sie auf das Fünf-Meter-Brett steigen. 
+                  Egal wie mutig man ist: du stehst da oben und machst dir in die Hose! Wenn man das den Kindern nicht sagt, dann schreien sie und trauen sich nicht. Wir müssen ihnen sagen: "Du wirst da hoch gehen und dir in die Hose machen vor Angst und das ist echt schlimm. Und dann musst du springen!" 
+                  Das ist der Moment, in dem diese ganzen Glückshormone ausgeschüttet werden. Das war mir bei dem Buch so wichtig: man muss halt auch mal Angst haben, das ist überhaupt nicht schlimm.
+                </p>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="page-details">
+                  <p><i>Edition F</i></p>
+                  <p class="page-number">2 / 3</p>
+                </div>
+                <p class="quest">Von Victoria Kempter</p>
+
+                <p class="question">
+                  Für wen hast du das Buch geschrieben, wer ist deine Zielgruppe? 
+                </p>
+                <p>
+                  Das habe ich mich auch gefragt (lacht). Ich weiß es auch nicht. Letztendlich würde ich sagen, meine Zielgruppe sind immer mehr Frauen als Männer. 
+                  Und ich habe das Gefühl, dass es so ein Generationsding ist, das sowohl Mütter als auch Töchter interessiert. Auf jeden Fall haben sich bei der Lesung sehr viele Frauen die Bücher für ihre Mutter signieren lassen. 
+                  Aber ich freue mich auch über jeden männlichen Leser! Ich glaube, dass wir als Frauen einfach in einem ganz seltsamen Moment leben, in dem man nicht weiß, wer man sein soll und sein will, aber gleichzeitig ganz viel sein soll. 
+                  In diesem Spannungsfeld bewegt sich tatsächlich alles, was ich mache. Ob das jetzt journalistisch ist, in Büchern oder Theaterprojekte, letztendlich geschieht das alles in diesem Spannungsfeld: "Wer ich sein soll und wer ich sein will." 
+                  Und ich glaube das sind einfach Themen, die Frauen mehr umtreiben. Letztendlich auch in allen Altersstufen. Meine Mitt-Zwanziger waren echt katastrophal, also echt eine ganz schlimme Phase, ganz furchtbar. Die frühen Dreißiger waren hingegen super! 
+                  Ich habe viele Freundinnen, die so zwischen Fünfundfünfzig und Fünfzig sind und sich jetzt alle fragen: Wer will ich sein? Wer soll ich sein? Die Kinder sind alt und die Wechseljahre vorbei. Du stehst also immer wieder an diesem Bild. Weil sich das Frauenbild halt auch so radikal dreht, immer wieder. 
+                  Diese Art von Identitätsfindung, die ich oft in meinen Texten habe, spricht einfach Frauen an, die an diesen Scharnieren stehen. Die sich fragen: Wo geht es jetzt hin?
+                </p>
+                <p class="question">
+                  Du hast in deinem Buch sehr viel Persönliches preisgegeben. Wie hat deine Familie reagiert? Haben sie das vorher zu lesen bekommen oder hast du es einfach veröffentlicht?
+                </p>
+                <p>
+                  Ich habe meinem Vater ziemlich genau gesagt, was da kommt. Aber ich habe ihm gesagt, dass er es noch nicht lesen soll. Er soll das Trauerjahr erstmal abwarten. Ich glaube der Anfang wäre hart für meine Mutter gewesen, aber letztendlich hätte es ihr gefallen, weil es ja zu einem relativ versöhnlichen Ende kommt. 
+                  Einem konstruktiven Ende, das war mir ganz wichtig. Dieses Confessional Memoir ist eines der interessantesten literarischen Genres - aber eben nur, wenn der Autor mutig genug ist, wirklich was zu erzählen. Wenn man die Hosen runter lässt. Wenn man nur labert macht das keinen Sinn. Und das ist für einen selber natürlich ganz komisch. 
+                </p>
+                <p>
+                  Ich würde zum Beispiel nie ein Foto von meinem Kind auf Facebook posten, das finde ich ganz schlimm! Aber gleichzeitig schreibe ich ellenlang über mein Leben. Das ist ein Widerspruch! 
+                  Und ich denke natürlich ganz viel darüber nach: Warum kann ich nicht aufhören über mich selber zu schreiben? Das ja eigentlich ganz schrecklich, furchtbar, so viel von sich selber! 
+                  Aber ich glaube einfach, dass das für mich immer wieder diese Neuerfindung ist. Du hast jetzt das Buch gelesen, du weißt ganz viel über mich. Aber du kennst mich natürlich trotzdem nicht. Und das ist mein Safe Place.
+                </p>
+                <p class="question">
+                  Das ist mir auch aufgefallen. Man hat die ganze Zeit das Gefühl, man begleitet wirklich dein ganzes Leben und an irgendeinem Punkt fällt einem dann auf: da fehlt richtig viel dazwischen. 
+                  Zum Beispiel kommen eigentlich keine Männer vor, bis dann der Eine auftaucht und einfach da ist. 
+                </p>
+                <p>
+                  Wir sind überhaupt nicht so abhängig von unseren Männern! Ich habe in meinen Zwanzigern immer gedacht, ich bin bin irgendwie einsam. 
+                  Ich hatte in meinen frühen Zwanzigern einen festen Freund und dann hatte ich immer mal so Dinger am Laufen, später irgendwann Camilo. 
+                  Ich habe das auch oft bei Freundinnen beobachtet, dass man seine Lebensphasen danach ordnet, mit welchem Mann man zusammen war. Aber je älter man wird, desto weniger wichtig wird das. 
+                  Und natürlich sind diese großen Liebesdramen, ohne etwas zu bereuen, rückwirkend gar nicht mehr so wichtig.
+                </p>
+                <p class="question">
+                  Du schreibst in deinem Buch, dass deine Eltern dich quasi dann gehen lassen haben, als sie wussten, du bist in „festen Händen”. War das früher einfach alles wichtiger?
+                </p>
+                <p>
+                  Ja! Das ist auch die große, moderne Kunst! Wenn wir es schaffen, unsere Töchter zu Frauen großzuziehen und nicht nur zu Mädchen, die irgendwann heiraten, dann haben wir meines Erachtens nach den Feminismus nach Hause gebracht! 
+                  Ich glaube da liegt die Axt begraben. Man sieht das wirklich oft, zum Beispiel meine Mutter oder viele Mütter von Freunden von mir, die jetzt in ihren späten 60ern, frühen 70ern sind, die sind wie kleine Mädchen. 
+                  Sie sind natürlich reif und erwachsen, sie haben oft vier, fünf Kinder groß gezogen und Scheidungen durchgemacht und was weiß ich - aber die emotionale Reife, die ist überhaupt nicht da! 
+                  Mir das ist erst so richtig aufgefallen, weil irgendjemand gefragt hat: "Du verstehst dich doch mittlerweile ganz gut mit deinen Eltern?!" Da hab ich angefangen darüber nachzudenken, wann es eigentlich besser wurde. 
+                  Das war, als plötzlich klar war: "Die hat jetzt einen Freund, den muss man ernstnehmen. Der hat ne Festanstellung, bei einem großen, internationalen Konzern.
+                </p>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="page-details">
+                  <p><i>Edition F</i></p>
+                  <p class="page-number">3 / 3</p>
+                </div>
+                <p class="quest">Von Victoria Kempter</p>
+                <p class="question">
+                  Also haben sie dich quasi weitergegeben?
+                </p>
+                <p>
+                  Ja! Genau, wie es im Buch steht: Ich war nicht mehr deren Problem. Die müssen sich jetzt keine Sorgen mehr machen, wenn ich kein Geld mehr habe, denn das ist Camilo's Problem. 
+                  Wir müssen dazu kommen, unsere Töchter so zu erziehen, dass die wirklich für sich selbst verantwortlich sind. In der gesamten Konsequenz - denn das ist ja schrecklich, für sich selbst verantwortlich zu sein! 
+                  Es ist natürlich viel einfacher, sich irgendeinen tollen Mann zu suchen, der das für einen übernimmt. Aber wenn man das hinkriegt - und Männer kriegen das ja auch nicht durchweg gut hin - dann ist das ganz viel wert. 
+                  Es ist wichtig, dass man hier bis zum Ende denkt. Genau so wie man versucht, seine Söhne zu Männern zu machen.
+                </p>
+                <p class="question">
+                  Es gibt viele Frauen, die sich freiwillig dafür entscheiden, zu Hause zu bleiben und die Kinder großzuziehen - nicht weil sie es müssen, sondern weil sie dürfen. Ist diese Entscheidung nicht auch emanzipiert?
+                </p>
+                <p>
+                  Absolut. Was weg muss ist dieses Gefühl, dass man sich nicht trennen kann, weil man kein Geld hat. Das ist das schlimmste Gefühl. 
+                  Und wenn man sich als Frau entscheidet, dass man keinen Beruf ausüben möchte, weil man Kinder großzieht, muss man wissen: Das ist ein zeitlich begrenzter Job. 
+                  Irgendwann ist der zu Ende. Und dann hat die Gesellschaft - noch - keinen Platz mehr für uns. Meine Mutter hat drei Kinder großgezogen und eine Rente von 123 Euro bekommen. 
+                  Also im Grunde tritt der Staat diese Hausfrauen mit Füßen, die ja angeblich so toll und wichtig sind. Ich glaube einfach, dass es ganz wichtig ist, dass jeder den Weg geht, den er gehen will. 
+                  Und ganz wichtig sind tatsächlich Frauennetzwerke. Dass man merkt, dass man nicht um die "guten Männer" konkurriert, sondern, dass man zusammen ein Leben zu gestalten hat. 
+                  Die Leute, mit denen du heute studierst sind hoffentlich die, die in zehn Jahren Chefs sind. Und mit denen muss man sich verbinden.
+                </p>
+                <p class="question">
+                  Wie erlebst du Feminismus in der Print-Branche?
+                </p>
+                <p>
+                  Also das Problem ist, dass viele Magazine zwar als "neutral" ausgeschrieben sind, aber letztendlich doch Männer ansprechen. Man sieht das immer an den Anzeigen, die sich nur an Männer richten. 
+                  Ich lese diese Zeitungen, weil sie mich gut informieren - aber im Grunde weiß ich, dass sie nicht zu mir sprechen. Und dass auch kein Verlag daran glauben würde, dass man etwa einen Spiegel für Frauen machen könnte. 
+                  Mir blutet es auch wirklich in der Seele, dass es da keine Gleichberechtigung gibt. Wenn du zum Beispiel politische Korrespondentin wirst, wirst du ernst genommen. 
+                  Aber dann darfst du dich nicht mehr mit Rezepten auseinandersetzen, weil das Off-Topic ist. Und dass es da diese harte Kategorisierung gibt, das finde ich einen unmöglichen Sexismus, der aber von beiden Seiten getriggert wird. 
+                  Denn es gibt genau so viele weibliche Politik-Korrespondentinnen, die dich sehr sehr schräg angucken. Auch ich habe das total gemerkt: ich habe zehn Jahre für die Süddeutsche Zeitung geschrieben und wurde in dieser Zeit überall hin mitgenommen. 
+                  Und jetzt bei Harpers Bazaar, einer Frauenzeitung, interessiert das niemanden! Dabei hat das die US-Vogue ja ganz gut vor gemacht. Du kannst sehr wohl in beiden Bereichen arbeiten!
+                </p>
+                <p class="question">
+                  Du hast an einer Stelle im Buch beschrieben, dass die Berufe, die du ausführst, eigentlich alle dem Tod geweiht sind, dass es sie in 20 Jahren wahrscheinlich nicht mehr gibt. Du machst trotzdem einfach weiter. Warum?
+                </p>
+                <p>
+                  Man macht sich in die Hosen vor Angst! Und nicht nur ich, die ganze Branche! Ich meine, die erste Frage ist: was soll man sonst machen? Ich persönlich bin mittlerweile ganz ruhig, weil ich denke, ich könnte auch andere Sachen machen. 
+                  Aber natürlich hat man da Angst vor! Früher hattest du in all diesen Kreativbranchen Leute ab 40 die aufsteigen oder absteigen. Und die Konzerne haben junge Leute mit unbefristeten Verträgen angestellt, um sich selber zu verjüngen und am Zeitgeist zu halten. 
+                  Was jetzt passiert ist, dass Leute in meinem Alter sich mit aller Gewalt an ihre Stühle ketten und die Konzerne Angst haben, sie zu feuern, weil es zu teuer ist. Und jungen Leuten maximal Zwei-Jahres-Verträge geben. 
+                  Das heißt, der natürliche Verjüngungsprozess ist total gestoppt, weil auch Verlage sich gar nicht sicher sind, wie sie in vier oder fünf Jahren ihr Kerngeschäft noch umsetzen. Und das ist nicht gut. Das ist für niemanden gut. 
+                  Für junge Leute nicht, weil sie keine Perspektive mehr bekommen. Für Leute im älteren und mittleren Alter auch nicht, weil man eben doch ganz anders denkt. Dabei habe ich immer davon profitiert, mit jüngeren Leuten zusammenzuarbeiten, die plötzlich wieder so einen ganz anderen Blick auf die Sache werfen. 
+                  Aber was mich angeht, ich lass das auf mich zukommen.
+                </p>
+                <p class="question">
+                  Du hast dich jetzt viel mit deiner Vergangenheit und mit psychischen Krankheiten beschäftigt. Was würdest du deinem jüngeren Ich gerne sagen? 
+                </p>
+                <p>
+                  Ich hätte gerne jemanden wie mich gehabt, als ich jünger war! Jemanden der mir sagt: "Es wird besser und du machst weiter und diese Phase ist auch ganz wichtig." Du musst halt einfach einmal durchdrehen, bevor du richtig erwachsen wirst. 
+                  Und die, die gar nicht durchdrehen, die drehen dann mit 45 durch. Die spießigsten Freunde meiner Eltern, die meine Mutter ausgelacht haben, sind alle mit Mitte-Ende 40 total durchgedreht. Diese Statistik, dass jeder Dritte in seinem Leben eine psychische Krankheit entwickelt, die behandlungsbedürftig ist, kann ich komplett nachvollziehen. 
+                  Irgendwann muss es halt raus. Irgendwann kommt es und beißt dich in den Nacken! Ich bin froh, dass ich mit Mitte 20 durchgedreht bin. So kann ich jetzt meinen Weg gehen. Zwei Freundinnen waren früher super straight. 
+                  Ich hab immer gesagt: "Du bist die älteste 23-Jährige die ich je kennen gelernt habe!" und jetzt, zehn Jahre später, hat sie mit 33 das Gleiche, was ich mit 23 hatte. Und auch da wieder: Das ist überhaupt nicht schlimm! 
+                  Irgendwann kriegt es dich einfach. Und das finde ich so faszinierend. Deswegen würde ich immer sagen: "Diese Unsicherheiten und diese Ängste, die sind schon okay. Hab mal gerade ein bisschen Angst, das ist ganz normal und vielleicht sogar gut!" 
+                  Weil das einen auch vor blöden und vielleicht impulsiven Entscheidungen bewahrt.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+      </section>
+
+
+        <footer>
+          <p>&copy; 2022 Miriam Stein</p>
+        </footer>
+
+
+      </main>
+      
+    <script type="text/javascript" src="javascript/app.js"></script>
+    
+  </body>
+</html>

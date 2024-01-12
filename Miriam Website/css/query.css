@@ -1,0 +1,138 @@
+/* media queries */
+
+@media (min-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 30% 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        border-bottom: 1px solid black;
+        padding-bottom: 100px;
+        }
+
+    .about-container {
+        border-bottom: 0px;
+    }
+
+    .selector {
+        border-bottom: 0px;
+    }
+        
+    #main_cover {
+        max-width: 75%;
+        padding: 50px 0 50px 0;
+    }
+
+    .page--cover {
+        max-width: 75%;
+    }
+
+    .cover_container {
+       margin-top: 35px;
+    }
+
+    .text-widget-container {
+        border-bottom: none;
+    }
+
+    blockquote {
+        max-width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .grid-con {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    #main_portrait {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .about-container {
+        margin-left: 120px;
+        margin-right: 50px;
+    }
+
+   .cf {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+   }
+
+   .textarea {
+    width: 100%
+   }
+
+   .contact-form {
+    padding-bottom: 40px;
+   }
+
+   .half {
+    width: 100%;
+   }
+
+   /* Impressum */
+
+   .impressum--container {
+    max-width: 1000px;
+    margin: auto;
+   }
+
+   .impressum--item {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+    padding-top: 50px;
+   }
+
+   .impressum-heading {
+    text-align: right;
+    padding-right: 30px;
+   }
+
+}
+
+
+@media (min-width: 1024px) {
+
+body {
+    max-width: 1600px;
+    margin: auto;
+}
+   
+.about-container {
+    padding-top: 50px;
+}
+
+blockquote {
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.cf {
+    max-width: 900px;
+    margin: auto;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+
+
+}

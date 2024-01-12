@@ -1,0 +1,36 @@
+/* Impressum styles */
+
+main {
+    min-height: 80vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.impressum-heading,
+.impressum-title {
+    text-align: center;
+    margin: 25px 0 25px 0;
+    padding-bottom: 10px;
+    font-family: 'PT Sans', Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #000;
+    margin-bottom: 0px;
+}
+
+.impressum-adress {
+    font-family: 'PT Sans', Helvetica, sans-serif;
+    font-size: 14px;
+    padding-bottom: 0px;
+    line-height: 0.5;
+    text-align: center;
+    color: #383836;
+}
+
+.impressum--container {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding: 0px 20px;
+}
